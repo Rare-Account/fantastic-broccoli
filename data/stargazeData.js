@@ -34,8 +34,8 @@ Game.stargazeData = (function(){
 	instance.darkMatter = {
 		name: "Dark Matter",
 		desc: "Here, you can see how much Dark Matter you have acquired and the earnings you will recieve upon reset (in brackets). You can find out how DM is gained and can spend it on Dark-Matter-specific upgrades.",
-		current: 0,
-		count: 1000,
+		current: 100,
+		count: 0,
 		category: "general",
 		unlocked: true
 	};
@@ -95,7 +95,7 @@ Game.stargazeData = (function(){
 
 Game.darkMatter = (function(){
 
-	var instance = {};
+	var instance = {1000};
 
 	/************
 	** DM Gain **
