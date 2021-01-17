@@ -95,7 +95,7 @@ Game.stargazeData = (function(){
 
 Game.darkMatter = (function(){
 
-	var instance = {1000};
+	var instance = {};
 
 	/************
 	** DM Gain **
